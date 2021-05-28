@@ -1,36 +1,32 @@
-# HBL-autoinstall
-Auto Installation script for HBlink3 and HBMonitor
+Installation automatique HBL
+Script d'installation automatique pour HBlink3 et HBMonitor
 
-  I wrote this script that fully automates the installation of this unique software for all my friends 
-who would like to have their own HBlink server with Dashboard, but are not very familiar with Linux.
+J'ai écrit ce script qui automatise entièrement l'installation de ce logiciel unique pour tous mes amis qui aimeraient avoir leur propre serveur HBlink avec Dashboard, mais ne sont pas très familiers avec Linux.
 
-  In addition, I think it will also save a lot of time for those who are experts.
-Everyone can use it and change it as they wish according to their own skills and preferences.
+De plus, je pense que cela fera également gagner beaucoup de temps à ceux qui sont des experts. Chacun peut l'utiliser et le modifier à sa guise en fonction de ses propres compétences et préférences.
 
-The installation uses the original software without modification.
+L'installation utilise le logiciel d'origine sans modification.
 
-The only thing I have added is a configured PARROT so that everyone who installs it 
-can try its functionality immediately "out-of-the-box"
+La seule chose que j'ai ajoutée est un PARROT configuré pour que tous ceux qui l'installent puissent essayer immédiatement sa fonctionnalité "prête à l'emploi"
 
-To use the script by clean install just follow the next commands in terminal:
+Pour utiliser le script par une installation propre, suivez simplement les commandes suivantes dans le terminal:
 
-cd
+CD
 
 sudo apt-get install git
 
 sudo git clone https://github.com/francedmr/HBL-autoinstall.git
 
-cd HBL-autoinstall
+cd HBL-installation automatique
 
-sudo chmod +x autoinstall.sh
-
-sudo ./autoinstall.sh
-
-If you want to reinstall the system use:
-
-cd
+sudo chmod + x autoinstall.sh
 
 sudo ./autoinstall.sh
 
+Si vous souhaitez réinstaller le système, utilisez:
+
+CD
+
+sudo ./autoinstall.sh
 
 73 de FR86FB
